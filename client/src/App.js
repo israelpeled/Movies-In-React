@@ -41,6 +41,7 @@ getMovies(SEARCH_API + searchTerm)
     <>
       <header>
         <form onSubmit={handleOnSubmit}>
+     
            <input
             className="search"
              type="search" 
